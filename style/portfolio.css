@@ -53,6 +53,10 @@
     padding-bottom: 30px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* main style */
 header {
     background-color: #FFF8F3;
@@ -212,4 +216,54 @@ margin-bottom: 30px;
     line-height: 28px;
     color: #757575;
     padding-bottom: 30px;
+}
+
+#resume{
+    margin-top: 130px;
+}
+
+
+#resume .resume-content{
+    max-width: 1093px;
+    margin: 0 auto;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-content hr{
+margin: 30px 0;
+}
+
+#resume .resume-content .education .education-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+    max-width: 203px;
+}
+
+#resume .resume-content .education .education-cart{
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+#resume .resume-content .education .education-cart .cart-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.education-cart .cart-info{
+    font-size: 20px;
+    font-weight: 600;
+    color:#757575;
+    margin-bottom: 20px;
+}
+
+.education-cart .cart-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
